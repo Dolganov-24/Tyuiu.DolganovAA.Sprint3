@@ -8,7 +8,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task2.V28.Test
         public void TestCalcResult()
         {
             DataService ds = new DataService();
-            double res = ds.CalcResult();
+            double res = ds.CalcResult(); 
 
             double expected = 1;
             for (int k = 1; k <= 9; k++)

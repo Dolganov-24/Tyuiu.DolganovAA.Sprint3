@@ -30,4 +30,4 @@ namespace Tyuiu.DolganovAA.Sprint3.Task2.V28
             Console.ReadKey();
         }
     }
-}
+} 
