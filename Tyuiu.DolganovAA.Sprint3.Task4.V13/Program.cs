@@ -3,7 +3,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task4.V13
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             DataService ds = new DataService();
 
