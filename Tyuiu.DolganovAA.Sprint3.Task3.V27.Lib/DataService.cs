@@ -19,7 +19,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27.Lib
             return result.ToString();
         }
 
-        public int ConvertToInt(string digits)
+        public int ConvertStringToInt(string digits)
         {
             return int.TryParse(digits, out int number) ? number : 0;
         }

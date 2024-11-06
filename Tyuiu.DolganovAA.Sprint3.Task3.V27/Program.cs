@@ -31,7 +31,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27
             Console.WriteLine("***************************************************************************");
 
             string digits = ds.ExtractDigits(input);
-            int number = ds.ConvertToInt(digits);
+            int number = ds.ConvertStringToInt(digits);
 
             Console.WriteLine($"Извлеченные цифры: {digits}");
             Console.WriteLine($"Преобразованное число: {number}");
