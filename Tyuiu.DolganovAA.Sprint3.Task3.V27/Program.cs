@@ -30,11 +30,9 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string digits = ds.ExtractDigits(input);
-            int number = ds.ConvertStringToInt(digits);
+            int number = ds.ConvertStringToInt(input);
 
-            Console.WriteLine("Извлеченные цифры" + digits);
-            Console.WriteLine("Преобразованное число" + number);
+            Console.WriteLine("Преобразованное число:" + number);
             Console.ReadKey();
         }
     }

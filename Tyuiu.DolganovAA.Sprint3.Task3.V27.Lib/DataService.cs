@@ -4,7 +4,12 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27.Lib
 {
     public class DataService : ISprint3Task3V27
     {
-        public string ExtractDigits(string input)
+        public int ConvertStringToInt(string value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int ExtractDigits(string input)
         {
             StringBuilder result = new StringBuilder();
 
@@ -16,12 +21,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27.Lib
                 }
             }
 
-            return result.ToString();
-        }
-
-        public int ConvertStringToInt(string digits)
-        {
-            return int.TryParse(digits, out int number) ? number : 0;
+            return int.TryParse(result.ToString(), out int number) ? number : 0;
         }
     }
 }
