@@ -19,5 +19,5 @@ namespace Tyuiu.DolganovAA.Sprint3.Task4.V13.Lib
             }
             return Math.Round(res, 3);
         }
-    } 
+    }
 }
