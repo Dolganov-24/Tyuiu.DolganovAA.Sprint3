@@ -10,7 +10,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27.Test
             var processor = new DataService();
             string input = "!bt, g567kid f!";
 
-            string result = processor.ExtractDigits(input);
+            string result = processor.ConvertStringToInt(input);
 
             Assert.Equal(567, result);
         }
@@ -21,7 +21,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27.Test
             var processor = new DataService();
             string digits = 567;
 
-            int result = processor.ConvertToInt(digits);
+            int result = processor.ConvertStringToInt(digits);
 
             Assert.Equal(567, result);
         }
@@ -32,7 +32,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27.Test
             var processor = new DataService();
             string digits = 0;
 
-            int result = processor.ConvertToInt(digits);
+            int result = processor.ConvertStringToInt(digits);
 
             Assert.Equal(0, result);
         }

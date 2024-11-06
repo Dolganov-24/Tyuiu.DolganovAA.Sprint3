@@ -4,12 +4,7 @@ namespace Tyuiu.DolganovAA.Sprint3.Task3.V27.Lib
 {
     public class DataService : ISprint3Task3V27
     {
-        public int ConvertStringToInt(string value)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int ExtractDigits(string input)
+        public int ConvertStringToInt(string input)
         {
             StringBuilder result = new StringBuilder();
 
